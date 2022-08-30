@@ -5,5 +5,5 @@ for (let letter of sentence) {
   setTimeout(() => {
     process.stdout.write(letter);
   }, time);
-  time = time + 80;
+  time += 80;
 }
